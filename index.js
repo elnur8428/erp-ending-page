@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our ERP Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-blue-600 text-white text-center py-10">
+        <h1 class="text-4xl font-bold">Join Us in Building the Future of ERP</h1>
+        <p class="mt-2 text-lg">Prove your skills by creating the MVP & earn a spot in our core team!</p>
+        <a href="#apply" class="mt-4 inline-block bg-white text-blue-600 font-bold px-6 py-3 rounded shadow-lg">Apply Now</a>
+    </header>
+
+    <section class="container mx-auto px-6 py-10">
+        <h2 class="text-2xl font-bold text-center">About the Project</h2>
+        <p class="text-center mt-2">We are developing an innovative ERP system for SMEs, and we need talented developers to help us build the MVP.</p>
+        
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-6 shadow rounded">
+                <h3 class="font-bold text-lg">The Challenge</h3>
+                <p>Build the MVP and prove your expertise.</p>
+            </div>
+            <div class="bg-white p-6 shadow rounded">
+                <h3 class="font-bold text-lg">The Reward</h3>
+                <p>Get hired full-time or receive a stake in the project.</p>
+            </div>
+            <div class="bg-white p-6 shadow rounded">
+                <h3 class="font-bold text-lg">Tech Stack</h3>
+                <p>Django / FastAPI / Laravel / Node.js | React / Vue.js | PostgreSQL / MongoDB</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="apply" class="bg-white py-10 px-6 shadow-md max-w-lg mx-auto rounded">
+        <h2 class="text-2xl font-bold text-center">Apply Now</h2>
+        <p class="text-center mb-4">Fill out the form below to join our team.</p>
+
+        <!-- Embed Google Form -->
+        <iframe src="YOUR_GOOGLE_FORM_EMBED_LINK_HERE" width="100%" height="600px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </section>
+</body>
+</html>
+
